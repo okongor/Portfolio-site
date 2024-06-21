@@ -1,0 +1,181 @@
+@font-face {
+    font-family: logofont;
+    src: url(font/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: textfont;
+    src: url(font/Playwrite_GB_J/italic.ttf);
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222831;
+}
+
+.homepage{
+    height: 100vh;
+}
+nav {
+
+
+    padding: 1rem;
+
+
+}
+
+
+
+nav ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+    margin: 0;
+
+    display: flex;
+
+    justify-content: right;
+
+
+    margin-top: -3%;
+
+
+}
+
+
+
+.navitems li a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 1rem;
+    margin-right: 85px;
+    font-family: logofont;
+    transition: all ease-in 0.3s;
+
+}
+
+.navitems li a:hover{
+    font-size: 1.1rem;
+    color: #00ADB5;
+
+
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: textfont;
+    color: #00ADB5;
+}
+
+hr {
+    height: 0.5px;
+    background-color: rgb(63, 63, 63);
+    border: none;
+}
+
+.arrowandtext h1{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: logofont;
+    color: white;
+}
+.jobtitle{
+    color: #00ADB5;
+}
+
+.firstbutt{
+
+    padding: 12px;
+    background-color: #00ADB5;
+    border-radius: 25px;
+    border: none;
+    width:120px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.secondbutt{
+    padding: 12px;
+    background-color: #2a2b2b;
+    border-radius: 25px;
+    border: none;
+    width:170px;
+    color: white;
+    font-size: 16px;
+    margin-left: 2%;
+    cursor: pointer;
+    
+
+}
+.arrowandtext{
+    display: flex;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.arrow{
+    margin-top: 6%;
+    height: 200px;
+}
+
+.buttons{
+    margin-top: -4%;
+    margin-left: 15%;
+    
+}
+
+.illustration{
+    float: right;
+    margin-top: -21%;
+    margin-right: 7%;
+}
+.illustration img{
+    height: 500px;
+}
+.abttext{
+    margin-left: 7%;
+   
+}
+.abttext h1{
+    font-size: 4rem;
+    font-family: logofont;
+    color: white;
+}
+.me{
+    color: #00ADB5;
+}
+.abttext p{
+    font-size: 18px;
+    font-family: logofont;
+    color: white;
+    
+
+}
+.musicimage{
+    margin-left: 7%;
+
+}
+
+.aboutmain{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10%;
+ 
+}
+.illustrationii{
+    height: 500px;
+    
+    margin-top: 8%;
+    margin-right: 7%;
+}
