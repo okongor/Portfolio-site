@@ -17,13 +17,18 @@ body {
     background-color: #222831;
 }
 
-.homepage{
+.homepage {
     height: 100vh;
 }
+
 nav {
 
-
+    background-color: #222831;
     padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(77, 77, 77);
 
 
 }
@@ -42,8 +47,9 @@ nav ul {
 
     justify-content: right;
 
-
+    margin-left: 70%;
     margin-top: -3%;
+
 
 
 }
@@ -62,7 +68,7 @@ nav ul {
 
 }
 
-.navitems li a:hover{
+.navitems li a:hover {
     font-size: 1.1rem;
     color: #00ADB5;
 
@@ -76,6 +82,7 @@ nav ul {
     font-size: 15px;
     font-family: textfont;
     color: #00ADB5;
+
 }
 
 hr {
@@ -84,98 +91,121 @@ hr {
     border: none;
 }
 
-.arrowandtext h1{
+.arrowandtext h1 {
     font-size: 60px;
     font-weight: 800;
     font-family: logofont;
     color: white;
 }
-.jobtitle{
+
+.jobtitle {
     color: #00ADB5;
 }
 
-.firstbutt{
+.firstbutt {
 
     padding: 12px;
     background-color: #00ADB5;
     border-radius: 25px;
     border: none;
-    width:120px;
+    width: 120px;
     color: white;
     font-size: 16px;
     cursor: pointer;
 
 }
-.secondbutt{
+
+.secondbutt {
     padding: 12px;
     background-color: #2a2b2b;
     border-radius: 25px;
     border: none;
-    width:170px;
+    width: 170px;
     color: white;
     font-size: 16px;
     margin-left: 2%;
     cursor: pointer;
-    
+
 
 }
-.arrowandtext{
+
+.arrowandtext {
     display: flex;
     margin-left: 7%;
-    margin-top: 6%;
+    margin-top: 12%;
 }
-.arrow{
+
+.arrow {
     margin-top: 6%;
     height: 200px;
 }
 
-.buttons{
+.buttons {
     margin-top: -4%;
     margin-left: 15%;
-    
+
 }
 
-.illustration{
+.illustration {
     float: right;
     margin-top: -21%;
     margin-right: 7%;
 }
-.illustration img{
+
+.illustration img {
     height: 500px;
 }
-.abttext{
+
+.abttext {
     margin-left: 7%;
-   
+
 }
-.abttext h1{
+
+.abttext h1 {
     font-size: 4rem;
     font-family: logofont;
     color: white;
 }
-.me{
+
+.me {
     color: #00ADB5;
 }
-.abttext p{
+
+.abttext p {
     font-size: 18px;
     font-family: logofont;
     color: white;
-    
+
 
 }
-.musicimage{
+
+.musicimage {
     margin-left: 7%;
 
 }
 
-.aboutmain{
-    display:flex;
+.aboutmain {
+    display: flex;
     justify-content: space-between;
     margin-top: 9%;
- 
+
 }
-.illustrationii{
+
+.illustrationii {
     height: 500px;
-    
+
     margin-top: 8%;
     margin-right: 7%;
+}
+.leftside{
+    margin-left: 7%;
+
+}
+.leftside h1{
+    font-size: 4rem;
+    font-family: logofont;
+    color: white;
+}
+.mind{
+    color: #00ADB5;
 }
