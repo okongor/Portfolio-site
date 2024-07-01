@@ -218,6 +218,8 @@ hr {
     font-family: logofont;
     color: white;
     margin-left: 7%;
+    padding-top: 9%;
+    
 
 }
 
@@ -270,5 +272,64 @@ textarea{
     margin-top: 12px;
     color: white;
     padding-top: 12px;
+
+}
+
+
+.messagebutton{
+    padding: 12px;
+    background-color: #00ADB5;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footerend{
+    display: flex;
+    justify-content: center;
+    padding-top: 6%;
+    margin-top: 7%;
+    width: 100%;
+    border-top: 1px solid rgb(77, 77, 77);
+    
+}
+
+.footerend a p{
+    color: white;
+    font-family: logofont;
+    font-weight: 200;
+    margin-left: 5%;
+}
+
+.footerend a{
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 1rem;
+    margin-right: 85px;
+    font-family: logofont;
+    transition: all ease-in 0.3s;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.iconbackground{
+    background-color: #393E46;
+    height: 50px;
+    width: 43px;
+    display: flex;
+    justify-content: center;
+    
+    
+   margin-left: 5%;
 
 }
