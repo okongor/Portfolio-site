@@ -294,6 +294,8 @@ textarea{
     margin-top: 7%;
     width: 100%;
     border-top: 1px solid rgb(77, 77, 77);
+
+   
     
 }
 
@@ -301,7 +303,7 @@ textarea{
     color: white;
     font-family: logofont;
     font-weight: 200;
-    margin-left: 5%;
+    width: 100%;
 }
 
 .footerend a{
@@ -318,18 +320,32 @@ textarea{
 .socials{
     display: flex;
     justify-content: center;
+    margin-bottom: 7%;
    
 
 }
 
 .iconbackground{
     background-color: #393E46;
-    height: 50px;
-    width: 43px;
+    height: 30px;
+    width: 23px;
     display: flex;
     justify-content: center;
+    padding-top: 17px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 6px;
+    border-radius: 80px;
     
-    
-   margin-left: 5%;
+   
 
+}
+
+
+.copyright{
+    text-align: end;
+    margin-right: 20px;
+    color:white;
+    font-family: logofont;
+    font-size: 13px;
 }
