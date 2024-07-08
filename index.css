@@ -20,6 +20,10 @@ body {
     height: 100vh;
 }
 
+nav ul img{
+    display: none;
+}
+
 nav {
 
     background-color: #222831;
@@ -198,6 +202,7 @@ hr {
     display: flex;
     justify-content: space-between;
     margin-top: 9%;
+    flex-wrap: wrap;
 
 }
 
@@ -219,7 +224,7 @@ hr {
     color: white;
     margin-left: 7%;
     padding-top: 9%;
-    
+
 
 }
 
@@ -228,28 +233,32 @@ hr {
     color: #00ADB5;
 }
 
-.contactcontent{
+.contactcontent {
     display: flex;
     width: 100%;
-  
+
     justify-content: space-around;
 }
-.nameemail{
+
+.nameemail {
     display: flex;
-   
+
     width: 100%;
-    
+
 }
-.email{
+
+.email {
     margin-left: 5%;
 }
-label{
-    color:white;
+
+label {
+    color: white;
     font-family: logofont;
     font-size: 16px;
-    
+
 }
-input{
+
+input {
     width: 288px;
     height: 48px;
     border-radius: 16px;
@@ -261,7 +270,8 @@ input{
     color: white;
 
 }
-textarea{
+
+textarea {
     width: 600px;
     height: 200px;
     border-radius: 16px;
@@ -276,7 +286,7 @@ textarea{
 }
 
 
-.messagebutton{
+.messagebutton {
     padding: 12px;
     background-color: #00ADB5;
     border-radius: 25px;
@@ -287,7 +297,7 @@ textarea{
     margin-top: 20px;
 }
 
-.footerend{
+.footerend {
     display: flex;
     justify-content: center;
     padding-top: 6%;
@@ -295,18 +305,18 @@ textarea{
     width: 100%;
     border-top: 1px solid rgb(77, 77, 77);
 
-   
-    
+
+
 }
 
-.footerend a p{
+.footerend a p {
     color: white;
     font-family: logofont;
     font-weight: 200;
     width: 100%;
 }
 
-.footerend a{
+.footerend a {
     color: white;
 
     text-decoration: none;
@@ -317,15 +327,15 @@ textarea{
     transition: all ease-in 0.3s;
 }
 
-.socials{
+.socials {
     display: flex;
     justify-content: center;
     margin-bottom: 7%;
-   
+
 
 }
 
-.iconbackground{
+.iconbackground {
     background-color: #393E46;
     height: 30px;
     width: 23px;
@@ -336,16 +346,71 @@ textarea{
     padding-right: 12px;
     margin: 6px;
     border-radius: 80px;
-    
-   
+
+
 
 }
 
 
-.copyright{
+.copyright {
     text-align: end;
     margin-right: 20px;
-    color:white;
+    color: white;
     font-family: logofont;
     font-size: 13px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+
+
+    nav li{
+       display: none;
+
+    }
+
+    nav ul img{
+      display: block;
+      margin-right: 120% ;
+    }
+
+    .contactcontent {
+        display: block;
+        
+    }
+    .aboutmain {
+        display: block;
+      
+    }
+
+    .arrowandtext{
+        margin-left: 0;
+    }
+    
+.arrowandtext h1 {
+    font-size: 55px;
+    font-weight: 600;
+    font-family: logofont;
+    color: white;
+    margin-top: 30%;
+    margin-left: 0;
+}
+
+.arrow {
+    margin-top: 50%;
+    height: 180px;
+}
+
+.illustration{
+    margin-top: 10%;
+}
+
+.illustration img{
+    height:480px;
+}
 }
